@@ -10,7 +10,7 @@ website:
     alignment: center
     tools:
       - icon: github
-        href: https://github.com/ajpelu/quarto-course-website-template
+        href: https://github.com/ajpelu/teach_reproducible_documents
         text: GitHub
     contents: 
       - href: index.qmd
