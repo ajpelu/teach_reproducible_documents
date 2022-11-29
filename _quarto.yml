@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Documentos Reproducibles con Rmarkdown"
+  sidebar:
+    sytle: "docked"
+    pinned: true
+    alignment: center
+    tools:
+      - icon: github
+        href: https://github.com/Pakillo/quarto-course-website-template
+        text: GitHub
+    contents: 
+      - href: teach_reproducible_documents.qmd
+        text: Documentos Reproducibles 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
